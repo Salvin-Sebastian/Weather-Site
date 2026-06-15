@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --primary-color: #2563eb;
+  --primary-color: #3b82f6;
   --text-color: #ffffff;
-  --text-muted: rgba(255, 255, 255, 0.7);
-  --glass-bg: rgba(255, 255, 255, 0.15);
-  --glass-border: rgba(255, 255, 255, 0.2);
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  --text-muted: rgba(255, 255, 255, 0.85);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.25);
+  --glass-shadow: 0 16px 40px 0 rgba(0, 0, 0, 0.2);
   --error-bg: rgba(239, 68, 68, 0.8);
 }
 
@@ -17,10 +17,10 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   color: var(--text-color);
   min-height: 100vh;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  background: linear-gradient(135deg, #141e30 0%, #243b55 100%);
   background-size: cover;
   background-attachment: fixed;
   display: flex;

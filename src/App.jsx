@@ -21,15 +21,15 @@ function App() {
     body.style.transition = 'background 1s ease-in-out';
     
     if (condition.includes('clear')) {
-      body.style.background = 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)';
+      body.style.background = 'radial-gradient(circle at top right, #ff7e5f 0%, #feb47b 100%)';
     } else if (condition.includes('cloud')) {
-      body.style.background = 'linear-gradient(135deg, #8e9eab 0%, #eef2f3 100%)';
+      body.style.background = 'radial-gradient(circle at top right, #757f9a 0%, #d7dde8 100%)';
     } else if (condition.includes('rain') || condition.includes('drizzle')) {
-      body.style.background = 'linear-gradient(135deg, #4b6cb7 0%, #182848 100%)';
+      body.style.background = 'radial-gradient(circle at top right, #373b44 0%, #4286f4 100%)';
     } else if (condition.includes('snow')) {
-      body.style.background = 'linear-gradient(135deg, #E0EAFC 0%, #CFDEF3 100%)';
+      body.style.background = 'radial-gradient(circle at top right, #e0eafc 0%, #cfdef3 100%)';
     } else {
-      body.style.background = 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)'; // default night/other
+      body.style.background = 'radial-gradient(circle at top right, #141e30 0%, #243b55 100%)'; // default night/other
     }
   }, [weatherData]);
 
