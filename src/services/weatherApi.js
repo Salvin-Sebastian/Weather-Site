@@ -30,9 +30,9 @@ const MOCK_FORECAST = {
 };
 
 // To switch to real API, replace these and add your key
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
-const USE_MOCK = true; 
+const USE_MOCK = false; 
 
 export const fetchWeatherData = async (city) => {
   if (USE_MOCK) {
